@@ -1,18 +1,23 @@
 name: todo
-description: "A new Flutter project."
+description: A new Flutter project.
+
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.2.0 <4.0.0'
+  sdk: '>=2.19.0-146.2.beta <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-
+  flutter_bloc:
+  equatable:
+  hydrated_bloc:
+  path_provider:
+  intl:
 
 dev_dependencies:
   flutter_test:
@@ -23,4 +28,3 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
-
